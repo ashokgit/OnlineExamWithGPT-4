@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exam Taker</title>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h4>Question and Answer</h4>
+    <div id="question-area" style="padding:20px"></div>
+    <button id="copy-question-btn">Copy Question</button>
+    <hr />
+    <h4>Codex-Comparison</h4>
+    <div id="answer-area" style="padding:20px"></div>
+    <button id="copy-answer-btn">Copy Answer</button>
+    <hr />
+    <div id="loading" style="display:none;">Loading...</div>
+    <textarea id="input-text" rows="4" cols="50" placeholder="Prompt Text"></textarea>
+    <button id="submit-text-btn">Get Asnwer</button>
+    <hr />
+    <label for="model-select">Choose a model:</label>
+    <select id="model-select">
+      <option value="gpt-4">4</option>
+      <option value="gpt-3.5-turbo" selected="true">3.5 Turbo</option>
+      <option value="gpt-3.5">3.5</option>
+    </select>
+    <br />
+    <button id="get-options-btn">Get Options</button>
+    <button id="get-code-btn">Get Code</button>
+    <button id="record-audio-btn">Record Audio</button>
+  </body>
+</html>

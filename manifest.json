@@ -1,0 +1,33 @@
+{
+  "name": "Online Exam Cracker",
+  "version": "1.0",
+  "description": "This is an extension for Online test cracker using chatGPT",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab",
+    "background"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+U"
+      }
+    }
+  }
+}
