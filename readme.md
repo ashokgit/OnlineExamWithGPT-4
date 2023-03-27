@@ -26,9 +26,14 @@ Online Exam Cracker is a browser extension that assists users in solving online 
    - **Get Options**: Extracts the available options and correct answer for the selected question.
    - **Get Code**: Generates code to solve the selected problem.
    - **Prompt Text**: Submits the text from the input area to get a response based on the selected model.
-   - **Record Audio**: Records user's audio for 3 seconds and transcribes it to text.
+   - **Record Audio**: (TODO) Records user's audio for 3 seconds and transcribes it to text.
 4. Select the desired GPT model from the dropdown to use it for fetching answers.
 5. Use your API Keys
+
+## TODO
+
+1. Add Record Audio feature
+2. Process Images for few Online Exams
 
 ## Because, Why the F\*\*\* Not?
 
