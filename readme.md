@@ -34,6 +34,7 @@ Online Exam Cracker is a browser extension that assists users in solving online 
 
 1. Add Record Audio feature
 2. Process Images for few Online Exams
+3. Remove GPT-codex as it's discontinued
 
 ## Because, Why the F\*\*\* Not?
 
