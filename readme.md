@@ -2,6 +2,8 @@
 
 Online Exam Cracker is a browser extension that assists users in solving online exam questions by leveraging OpenAI's GPT models. It provides features like extracting questions, fetching options, generating code, and even transcribing recorded audio. Users can select the GPT model of their choice to get the best possible answers.
 
+Medium Post: https://ashokpoudel.medium.com/online-exam-cracker-gpt-a-thought-provoking-experiment-on-the-future-of-assessments-f3a3e1061326
+
 ## Features
 
 - Extract questions and options from exam pages
